@@ -18,19 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{66C95043-EBFC-4959-B69B-17BF9D125E97}</ProjectGuid>
+  </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="empty.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define.h" />
   </ItemGroup>
-  <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{66C95043-EBFC-4959-B69B-17BF9D125E97}</ProjectGuid>
-    <Keyword>Win32Proj</Keyword>
-    <RootNamespace>3rdparty</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-  </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>

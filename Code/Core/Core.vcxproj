@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{D6CC2695-4F90-4614-AACC-3650BA8E8C29}</ProjectGuid>
-    <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Empty</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -169,6 +165,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Base\BaseHeader.h" />
+    <ClInclude Include="Base\BaseMacros.h" />
+    <ClInclude Include="Base\DetectCompiler.h" />
+    <ClInclude Include="Base\DetectOS.h" />
+    <ClInclude Include="Base\EngineConfig.h" />
+    <ClInclude Include="Base\InlineFunc.h" />
+    <ClInclude Include="Base\PostConfigEngine.h" />
+    <ClInclude Include="Base\STL.h" />
+    <ClInclude Include="Base\Version.h" />
+    <ClInclude Include="Platform\PlatformHeader.h" />
+    <ClInclude Include="Platform\PlatformMacros.h" />
+    <ClInclude Include="Platform\Win32PlatformDefinitions.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>

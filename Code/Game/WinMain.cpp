@@ -1,6 +1,5 @@
-#pragma warning( push, 1 )
-#include <Windows.h>
-#pragma warning( pop )
+#include "Core/Base/BaseHeader.h"
+#include "Core/Platform/PlatformHeader.h"
 //-----------------------------------------------------------------------------
 #pragma comment(lib, "3rdparty.lib")
 #pragma comment(lib, "Core.lib")
