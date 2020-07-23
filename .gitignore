@@ -4,3 +4,5 @@ Thumbs.db
 #Ignore project folders
 /_lib/
 /_obj/
+/*/.vs/
+/*/ipch/
