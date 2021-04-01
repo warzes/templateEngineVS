@@ -172,7 +172,6 @@
     <ClInclude Include="Base\EngineConfig.h" />
     <ClInclude Include="Base\InlineFunc.h" />
     <ClInclude Include="Base\PostConfigEngine.h" />
-    <ClInclude Include="Base\STL.h" />
     <ClInclude Include="Base\Version.h" />
     <ClInclude Include="Platform\PlatformHeader.h" />
     <ClInclude Include="Platform\PlatformMacros.h" />

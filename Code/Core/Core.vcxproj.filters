@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Base\BaseHeader.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Version.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\BaseMacros.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\DetectCompiler.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\DetectOS.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\EngineConfig.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\InlineFunc.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\PlatformHeader.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\PlatformMacros.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\PostConfigEngine.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Win32PlatformDefinitions.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{415fd99c-2398-425b-a7dc-fb77726b360f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
